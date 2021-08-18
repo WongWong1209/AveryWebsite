@@ -24,152 +24,8 @@ p, b {
     color: #ffffff;
 }
 
-#rightPNG {
-    background-image: url("../images/rightPNG.png");
-    background-size: 800px;
-    background-repeat: no-repeat;
-    display: block;
-    height: 800px;
-    width: 800px;
-    float: right;
-    margin: 0;
-    padding: 0;
-    top: -480px;
-    position: relative;
-}
-
-li#bigWord {
-    line-height: 30px;
-}
-
-li#bigWord h1 {
-    font-weight: bold;
-    font-size: 70px;
-    color: #ffffff;
-}
-
-ul#leftBtn li button {
-    border-style: hidden;
-    border-radius: 3px;
-    font-family: Roboto-Light;
-    font-size: 20px;
-    width: 180px;
-    height: 45px;
-    margin-left: -7px;
-}
-ul#leftBtn li button#supportServer {
-    margin-left: 30px;
-}
-ul#leftBtn li button:visited {
-    background-color: #ffffff;
-}
-ul#leftBtn li button:hover {
-    background-color: #fff06c;
-}
-ul#leftBtn li button:active {
-    background-color: #ffd86c;
-}
-
-ul#leftBtn li {
-    display: inline;
-}
-
-ul#menuBody {
-    margin-left: 150px;
-    margin-top: 90px;
-}
-
-ul#menuBody li {
-    display: inline;
-}
-
-#moderation {
-    color: #ffffff;
-    font-family: AquireLight;
-}
-
 .element::-webkit-scrollbar { 
     width: 0 !important 
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-}
-
-ul.topHead {
-    text-align: right;
-}
-
-ul.topHead li {
-    font-family: AquireLight;
-    display: inline;
-    color: #ffffff;
-    font-size: 25px;
-    padding: 0px;
-    margin-left: 25px;
-    text-align: right;
-}
-
-ul.topHead li a:visited, ul.topHead li a:link {
-    display: inline;
-    color: #ffffff;
-    padding: 0px;
-    margin-left: 25px;
-    text-align: right;
-}
-ul.topHead li a:hover {
-    color: #fff06c;
-    cursor: pointer;
-}
-ul.topHead li a:active {
-    color: #ffd86c;
-}
-
-a:visited, a:link {
-    color: #ffffff;
-}
-a:hover {
-    color: #fff06c;
-    cursor: pointer;
-}
-a:active {
-    color: #ffd86c;
-}
-
-#logo {
-    background-image: url("../images/averyLogoLong.png");
-    background-size: 160px;
-    background-repeat: no-repeat;
-    display: block;
-    height: 80px;
-    width: 160px;
-    float: left;
-    margin: 0;
-    margin-left: 70px;
-    padding: 0;
-    position: relative;
-    top: -25px;
-    left: -15px;
-}
-
-#logo:hover {
-    cursor: pointer;
-}
-
-#menuBtn {
-    margin-left: 0;
-}
-
-a {
-    text-decoration-line: none;
-}
-
-#footerUls {
-    float: left;
-    margin-left: -10px;
-    margin-top: 0px;
 }
 
 footer {
@@ -218,12 +74,86 @@ ul#foot {
 .footerWords b {
     text-decoration:underline;
 }
-
-.wrapper {
-    min-height:100%; 
-    position:relative; 
-    padding-bottom:180px;
+#footerUls {
+    float: left;
+    margin-left: -10px;
+    margin-top: 0px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+a:visited, a:link {
+    color: #ffffff;
+}
+a:hover {
+    color: #fff06c;
+    cursor: pointer;
+}
+a:active {
+    color: #ffd86c;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+ul.topHead {
+    text-align: right;
+}
+
+ul.topHead li {
+    font-family: AquireLight;
+    display: inline;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0px;
+    margin-left: 25px;
+    text-align: right;
+}
+
+ul.topHead li a:visited, ul.topHead li a:link {
+    display: inline;
+    color: #ffffff;
+    padding: 0px;
+    margin-left: 25px;
+    text-align: right;
+}
+ul.topHead li a:hover {
+    color: #fff06c;
+    cursor: pointer;
+}
+ul.topHead li a:active {
+    color: #ffd86c;
+}
+
+#logo {
+    background-image: url("../images/averyLogoLong.png");
+    background-size: 160px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 80px;
+    width: 160px;
+    float: left;
+    margin: 0;
+    margin-left: 70px;
+    padding: 0;
+    position: relative;
+    top: -25px;
+    left: -15px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#menuBtn {
+    margin-left: 0;
+}
+
 
 @font-face {
     font-family: AquireLight;

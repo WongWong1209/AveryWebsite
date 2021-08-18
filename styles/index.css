@@ -1,0 +1,74 @@
+#rightPNG {
+    background-image: url("../images/rightPNG.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 800px;
+    width: 800px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    top: -480px;
+    position: relative;
+}
+
+li#bigWord {
+    line-height: 30px;
+}
+
+li#bigWord h1 {
+    font-weight: bold;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+ul#leftBtn li button {
+    border-style: hidden;
+    border-radius: 3px;
+    font-family: Roboto-Light;
+    font-size: 20px;
+    width: 180px;
+    height: 45px;
+    margin-left: -7px;
+}
+ul#leftBtn li button#supportServer {
+    margin-left: 30px;
+}
+ul#leftBtn li button:visited {
+    background-color: #ffffff;
+}
+ul#leftBtn li button:hover {
+    background-color: #fff06c;
+}
+ul#leftBtn li button:active {
+    background-color: #ffd86c;
+}
+
+ul#leftBtn li {
+    display: inline;
+}
+
+ul#menuBody {
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+ul#menuBody li {
+    display: inline;
+}
+
+#moderation {
+    color: #ffffff;
+    font-family: AquireLight;
+}
+
+
+
+
+
+.wrapper {
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:180px;
+}
+
