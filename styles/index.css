@@ -3,13 +3,17 @@
     background-size: 800px;
     background-repeat: no-repeat;
     display: block;
-    height: 800px;
+    height: 610px;
     width: 800px;
     float: right;
     margin: 0;
     padding: 0;
     top: -480px;
     position: relative;
+}
+
+#menuSection {
+    height: 100%;
 }
 
 li#bigWord {
@@ -60,15 +64,5 @@ ul#menuBody li {
 #moderation {
     color: #ffffff;
     font-family: AquireLight;
-}
-
-
-
-
-
-.wrapper {
-    min-height:100%; 
-    position:relative; 
-    padding-bottom:180px;
 }
 

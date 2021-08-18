@@ -1,0 +1,17 @@
+#policyContent {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#policyContent p, #policyContent a {
+    display: inline-block; 
+    color: black;
+}
+
+#policyContent a {
+    text-decoration-line: underline;
+}
+
+h1 {
+    font-size: 30px;
+}
