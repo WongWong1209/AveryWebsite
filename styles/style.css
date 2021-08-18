@@ -20,6 +20,10 @@ body {
     padding: 0;
 }
 
+p, b {
+    color: #ffffff;
+}
+
 #rightPNG {
     background-image: url("../images/rightPNG.png");
     background-size: 800px;
@@ -123,6 +127,17 @@ ul.topHead li a:active {
     color: #ffd86c;
 }
 
+a:visited, a:link {
+    color: #ffffff;
+}
+a:hover {
+    color: #fff06c;
+    cursor: pointer;
+}
+a:active {
+    color: #ffd86c;
+}
+
 #logo {
     background-image: url("../images/averyLogoLong.png");
     background-size: 160px;
@@ -149,6 +164,65 @@ ul.topHead li a:active {
 
 a {
     text-decoration-line: none;
+}
+
+#footerUls {
+    float: left;
+    margin-left: -10px;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #eb8500;
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0;
+    width: 100%;
+    height: 150px;
+    vertical-align: baseline;
+}
+ul#foot li {
+    display: inline;
+    text-align: left;
+}
+ul#foot {
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+#footerLogo {
+    background-image: url("../images/averyLogoLong.png");
+    background-size: 160px;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 160px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+#footerLogoWords {
+    margin-left: 50px;
+    margin-top: -5px;
+    color: #e7e7e7;
+}
+#footerAvery {
+    float: right;
+    margin-right: 50px;
+}
+#footerTeam {
+    float: right;
+    margin-right: 25px;
+}
+.footerWords {
+    margin-top: 25px;
+}
+.footerWords b {
+    text-decoration:underline;
+}
+
+.wrapper {
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:180px;
 }
 
 @font-face {
