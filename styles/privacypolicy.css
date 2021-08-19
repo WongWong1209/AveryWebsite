@@ -30,7 +30,13 @@ html{
 header {
     margin: 0;
     padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
     background-color: #FFB455;
+    z-index: 99;
+    box-shadow: 0 0 15px rgba(136, 66, 0, 0.479);
 }
 
 a.topBtn {
@@ -120,6 +126,9 @@ ul {
 ul.topHead {
     text-align: right;
 }
+#theMostRightBtn {
+    margin-right: 15px;
+}
 
 ul.topHead li {
     font-family: Roboto-Regular;
@@ -158,8 +167,8 @@ ul.topHead li a:active {
     margin-left: 70px;
     padding: 0;
     position: relative;
-    top: -25px;
-    left: -15px;
+    margin-top: -30px;
+    margin-left: 10px;
 }
 
 #logo:hover {
