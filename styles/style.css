@@ -131,6 +131,7 @@ a {
 
 ul.topHead {
     text-align: right;
+    margin-top: 10px;
 }
 
 ul.topHead li {
@@ -173,7 +174,7 @@ ul.topHead li a:active {
     margin-left: 70px;
     padding: 0;
     position: relative;
-    margin-top: -30px;
+    margin-top: -40px;
     margin-left: 10px;
 }
 
