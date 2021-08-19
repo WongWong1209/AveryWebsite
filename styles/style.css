@@ -140,7 +140,7 @@ a {
 
 ul.topHead {
     text-align: right;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 ul.topHead li {
@@ -153,7 +153,7 @@ ul.topHead li {
     text-align: right;
 }
 #theMostRightBtn {
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 ul.topHead li a:visited, ul.topHead li a:link {
