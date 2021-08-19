@@ -42,7 +42,7 @@ ul#leftBtn li button:visited {
     background-color: #ffffff;
 }
 ul#leftBtn li button:hover {
-    background-color: #fff06c;
+    background-color: #FF9263;
 }
 ul#leftBtn li button:active {
     background-color: #ffd86c;
@@ -77,6 +77,5 @@ ul#menuBody li {
 }
 
 .check {
-    color: #1eff00;
-    -webkit-text-stroke: 0.5px rgb(181, 255, 146); 
+    color: #ff7b00;
 }
