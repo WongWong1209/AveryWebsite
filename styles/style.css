@@ -97,20 +97,24 @@ ul#foot {
     float: right;
     margin-right: 50px;
 }
-#footerTeam {
+#footerResources {
+    float: right;
+    margin-right: 50px;
+}
+#footerBusiness {
     float: right;
     margin-right: 25px;
 }
 .footerWords {
     margin-top: 25px;
 }
-.footerWords b {
-    text-decoration:underline;
-}
 #footerUls {
     float: left;
     margin-left: -10px;
     margin-top: 0px;
+}
+.footerRightLinks {
+    line-height: 8px;
 }
 
 ul {

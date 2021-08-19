@@ -27,6 +27,10 @@ html{
     position:relative;
 }
 
+footer p, footer b {
+    color: #ffffff;
+}
+
 header {
     margin: 0;
     padding: 12px;
@@ -61,7 +65,6 @@ footer {
     width: 100%;
     height: 150px;
     vertical-align: baseline;
-    color: #ffffff;
 }
 ul#foot li {
     display: inline;
@@ -80,46 +83,51 @@ ul#foot {
     width: 160px;
     position: relative;
     margin-left: 40px;
-    margin-top: 11px;
+    margin-top: 15px;
 }
 #footerLogoWords {
     margin-left: 50px;
-    margin-top: -9px;
+    margin-top: -8px;
     color: #e7e7e7;
 }
 #footerLogoCopyRightWords {
     margin-left: 51px;
     margin-top: -10px;
     font-size: 12px;
+    color: #ffffff;
 }
 #footerAvery {
     float: right;
     margin-right: 50px;
 }
-#footerTeam {
+#footerResources {
+    float: right;
+    margin-right: 50px;
+}
+#footerBusiness {
     float: right;
     margin-right: 25px;
 }
 .footerWords {
     margin-top: 25px;
 }
-.footerWords b {
-    text-decoration:underline;
-}
 #footerUls {
     float: left;
     margin-left: -10px;
     margin-top: 0px;
 }
-footer a, footer a:visited {
+.footerRightLinks p a {
+    text-decoration-line: none;
+    line-height: 8px;
+}
+.footerRightLinks p a:link, .footerRightLinks p a:visited {
     color: #ffffff;
 }
-footer a:hover {
+.footerRightLinks p a:hover {
     color: #fff06c;
-    cursor: pointer;
 }
-a.footerBtn {
-    text-decoration-line: none;
+.footerRightLinks p a:active {
+    color: #ffd86c;
 }
 
 ul {
