@@ -54,7 +54,7 @@ ul#leftBtn li {
 
 ul#menuBody {
     margin-left: 150px;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 ul#menuBody li {
@@ -63,6 +63,20 @@ ul#menuBody li {
 
 #moderation {
     color: #ffffff;
-    font-family: Roboto-Light;
+    font-family: Roboto-Regular;
 }
 
+#moderation ul li {
+    display: inline;
+}
+#moderation ul {
+    line-height: 15px;
+}
+.function {
+    color: #ffffff;
+}
+
+.check {
+    color: #1eff00;
+    -webkit-text-stroke: 0.5px rgb(181, 255, 146); 
+}

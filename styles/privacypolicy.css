@@ -122,12 +122,12 @@ ul.topHead {
 }
 
 ul.topHead li {
-    font-family: Roboto-Light;
+    font-family: Roboto-Regular;
     display: inline;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 15px;
     padding: 0px;
-    margin-left: 25px;
+    margin-left: 15px;
     text-align: right;
 }
 
@@ -135,7 +135,7 @@ ul.topHead li a:visited, ul.topHead li a:link {
     display: inline;
     color: #ffffff;
     padding: 0px;
-    margin-left: 25px;
+    margin-left: 15px;
     text-align: right;
 }
 ul.topHead li a:hover {
@@ -182,4 +182,9 @@ body {
 @font-face {
     font-family: Roboto-Light;
     src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
 }
