@@ -1,14 +1,14 @@
 #rightPNG {
     background-image: url("../images/rightPNG.png");
-    background-size: 800px;
+    background-size: 900px;
     background-repeat: no-repeat;
     display: block;
     height: 610px;
-    width: 800px;
+    width: 850px;
     float: right;
     margin: 0;
     padding: 0;
-    top: -570px;
+    top: -540px;
     position: relative;
 }
 
