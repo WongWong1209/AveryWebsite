@@ -188,10 +188,6 @@ ul.topHead li a:active {
     margin-left: 10px;
 }
 
-#logo:hover {
-    cursor: pointer;
-}
-
 #menuBtn {
     margin-left: 0;
 }
