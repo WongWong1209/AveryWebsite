@@ -10,12 +10,37 @@
             <ul class="topHead">
                 <li id="logo"></li>
                 <li id="menuBtn"><a href="index.html">Home</a></li>
-                <li><a href="scenes/features.html">Features</a></li>
+                <li><button id="features">Features</button></li>
                 <li><a href="https://discord.gg/uzzwFz3yh6" target="_blank">Support Server</a></li>
                 <li><a href="scenes/commands.html">Commands</a></li>
                 <li id="theMostRightBtn"><a href="https://www.patreon.com/bePatron?u=57095080" target="_blank">Premium</a></li>
             </ul>
         </header>
+        <script>
+            const featuresBtn = document.querySelector("#features");
+            var featuresCss = document.getElementById("features");
+            
+            featuresBtn.addEventListener("mousedown", function () {
+                featuresCss.style.color = "#ffd86c";
+            });
+            featuresBtn.addEventListener("mouseup", function () {
+                featuresCss.style.color = "#ffffff";
+            });
+            featuresBtn.addEventListener("mouseenter", function () {
+                featuresCss.style.color = "#fff06c";
+            });
+            featuresBtn.addEventListener("mouseleave", function () {
+                featuresCss.style.color = "#ffffff";
+            });
+
+            featuresBtn.addEventListener("click", function () {
+                window.scrollTo({
+                    top: 50,
+                    left: 0,
+                    behavior: "smooth"
+                });
+            });
+        </script>
         <section id="menuSection">
             <br><br><br><br>
             <div>

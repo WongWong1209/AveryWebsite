@@ -164,7 +164,7 @@ ul.topHead li a:visited, ul.topHead li a:link {
     margin-left: 15px;
     text-align: right;
 }
-ul.topHead li a:hover {
+ul.topHead li a:hover, #features:hover {
     color: #fff06c;
     cursor: pointer;
 }
@@ -190,6 +190,15 @@ ul.topHead li a:active {
 
 #menuBtn {
     margin-left: 0;
+}
+
+#features {
+    background: none;
+    border: none;
+    font-family: Roboto-Regular;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 15px;
 }
 
 @font-face {
