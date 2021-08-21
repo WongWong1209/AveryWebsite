@@ -387,6 +387,77 @@ ul#menuBody li {
         }
     }
 
+    @media screen and (max-width:990px) {
+        #rightPNG {
+            background-image: url("../images/rightPNG.png");
+            background-size: 800px;
+            background-repeat: no-repeat;
+            display: block;
+            height: 600px;
+            width: 750px;
+            margin: 0;
+            padding: 0;
+            float: none;
+            top: 0;
+            right: 0;
+            margin-left: -80px;
+        }
+        
+        #menuSection {
+            height: 100%;
+        }
+        
+        li#bigWord {
+            line-height: 20px;
+        }
+        
+        li#bigWord h1 {
+            font-weight: bold;
+            font-size: 80px;
+            color: #ffffff;
+        }
+        
+        ul#leftBtn li button {
+            border-style: hidden;
+            border-radius: 3px;
+            font-family: Roboto-Light;
+            font-size: 15px;
+            width: 148px;
+            height: 37px;
+            margin-left: -7px;
+        }
+        ul#leftBtn li button#supportServer {
+            margin-left: 30px;
+        }
+    
+        ul#leftBtn li {
+            display: inline;
+        }
+        
+        ul#menuBody {
+            margin-left: 10%;
+            margin-top: 10px;
+        }
+
+        ul#menuBody li {
+            display: block;
+        }
+        
+        #moderation {
+            font-size: 17px;
+            margin-top: -10px;
+            color: #ffffff;
+            font-family: Roboto-Regular;
+        }
+        
+        #moderation ul li {
+            display: inline;
+        }
+        #moderation ul {
+            line-height: 11px;
+        }
+    }
+
     @media screen and (max-width:910px) {
         #rightPNG {
             background-image: url("../images/rightPNG.png");
