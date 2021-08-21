@@ -1,10 +1,27 @@
-/* Delete when start develope*/
-section {
-    height: 80%;
+.avatar {
+    height: 200px;
+    width: 200px;
+}
+
+#developersPage {
+    text-align: center;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1px 50px;
+    background-color: #854b27;
+    border-radius: 20px;
+}
+
+.youtube {
+    height: 50px;
+    width: 50px;
+}
+
+.info {
+    line-height: 2px;
 }
 
 h1 {
-    text-align: center;
-    color: white;
+    font-size: 30px;
 }
-/* Delete when start develope*/

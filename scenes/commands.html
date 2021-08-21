@@ -26,8 +26,9 @@
                     <p>Function : Show the commands.</p>
                     <p>Example : as.help</p>
                     <p>(If you press the button "general" and "setting". You can switch to see the general commands and setting commands.)</p>
-                    <img src="../images/general.png">
-                    <img src="../images/setting.png">
+                    <img src="../images/general.png" id="general">
+                    <br><br>
+                    <img src="../images/setting.png" id="setting">
                     <br><br><br><br><br><br><br>
                     <!--===========================================================================-->
                     <h2 class="cmd">as.prefix</h2>
@@ -35,7 +36,7 @@
                     <p>Function : Customize your prefix.</p>
                     <p>Example #1 : as.prefix .  (Set prefix to ".")</p>
                     <p>Example #2 : as.prefix !  (Set prefix to "!")</p>
-                    <img src="../images/prefix.png">
+                    <img src="../images/prefix.png" id="prefix">
                     <br><br><br><br><br><br><br>
                     <!--===========================================================================-->
                     <h2 class="cmd">as.min-create</h2>
@@ -43,7 +44,7 @@
                     <p>Function : Set a time limit for the accounts those who want to join your server.</p>
                     <p>Example #1 : as.min-create 24  (The account need to created at least 1 day (24hr) to join your server.)</p>
                     <p>Example #2 : as.min-create 240  (The account need to created at least 10 day (240hr) to join your server.)</p>
-                    <img src="../images/min-create.png">
+                    <img src="../images/min-create.png" id="mincreate">
                 </div>
                 <br><br><br>
                 <hr size="3" width="100%" color="white">
@@ -54,7 +55,7 @@
                     <p>Method : as.report { ID of the person which you want to report } { report reason }</p>
                     <p>Function : Report someone.</p>
                     <p>Example : as.report 825989429365702676 Wumpus Very Smart</p>
-                    <img src="../images/report.png">
+                    <img src="../images/report.png" id="report">
                     <br><br><br><br><br><br><br>
                 </div>
                 <br><br><br>
@@ -67,16 +68,18 @@
                     <p>Function : Set a channel to be the "suppressed log". Suppressed log will show those 
                         messages that detected to be suspicious message.</p>
                     <p>(Also show the person who sent those messages.)</p>
-                    <img src="../images/suppressed.png">
-                    <img src="../images/suppressedlog.png">
+                    <img src="../images/suppressed.png" id="suppressed">
+                    <br><br>
+                    <img src="../images/suppressedlog.png" id="suppressedlog">
                     <br><br><br><br><br><br><br>
                     <!--===========================================================================-->
                     <h2 class="cmd">as.delete-log</h2>
                     <p>Method : as.delete-log { ID of the Channel which you are going to set to be suppressed log }</p>
                     <p>Function : Set a channel to be the "delete log". Delete log will show those messages that have been deleted.</p>
                     <p>(Also show the person who sent those messages.)</p>
-                    <img src="../images/delete.png">
-                    <img src="../images/deletelog.png">
+                    <img src="../images/delete.png" id="delete">
+                    <br><br>
+                    <img src="../images/deletelog.png" id="deletelog">
                     <br><br><br><br><br><br><br>
                     <!--===========================================================================-->
                     <h2 class="cmd">as.edit-log</h2>
@@ -84,24 +87,27 @@
                     <p>Function : Set a channel to be the "edit log". Edit log will show those messages that have been edited 
                         (Including the message before edit and after edit).</p>
                     <p>(Also show the person who sent those messages.)</p>
-                    <img src="../images/edit.png">
-                    <img src="../images/editlog.png">
+                    <img src="../images/edit.png" id="edit">
+                    <br><br>
+                    <img src="../images/editlog.png" id="editlog">
                     <br><br><br><br><br><br><br>
                     <!--===========================================================================-->
                     <h2 class="cmd">as.join-log</h2>
                     <p>Method : as.join-log { ID of the Channel which you are going to set to be join log }</p>
                     <p>Function : Set a channel to be the "join log". Join log will show the people who join your server.</p>
                     <p>(Also show how long their accounts have been created and the day the accounts created.)</p>
-                    <img src="../images/join.png">
-                    <img src="../images/joinlog.png">
+                    <img src="../images/join.png" id="join">
+                    <br><br>
+                    <img src="../images/joinlog.png" id="joinlog">
                     <br><br><br><br><br><br><br>
                     <!--===========================================================================-->
                     <h2 class="cmd">as.leave-log</h2>
                     <p>Method : as.leave-log { ID of the Channel which you are going to set to be leave log }</p>
                     <p>Function : Set a channel to be the "leave log". Leave log will show the people who leave your server.</p>
                     <p>(Also show how long they have join your server and since what day.)</p>
-                    <img src="../images/leave.png">
-                    <img src="../images/leavelog.png">
+                    <img src="../images/leave.png" id="leavelog">
+                    <br><br>
+                    <img src="../images/leavelog.png" id="leavelog">
                 </div>
                 <br><br><br>
                 <hr size="3" width="100%" color="white">
@@ -112,7 +118,7 @@
                     <p>Method : as.ping</p>
                     <p>Function : Show your ping.</p>
                     <p>Example : as.ping</p>
-                    <img src="../images/ping.png">
+                    <img src="../images/ping.png" id="ping">
                     <br><br><br><br><br><br><br>
                     <!--===========================================================================-->
                     <h2 class="cmd">as.uptime</h2>
