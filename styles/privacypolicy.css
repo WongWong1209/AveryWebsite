@@ -22,6 +22,10 @@
 											  transparent)
 }
 
+#policyContent b {
+    line-height: 27px;
+}
+
 html{
     height:100%;
     position:relative;
@@ -210,3 +214,302 @@ body {
     font-family: Roboto-Regular;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+
+@media screen and (max-width:780px) {
+    #footerLogo {
+        background-image: url("../images/averyLogoLong.png");
+        background-size: 120px;
+        background-repeat: no-repeat;
+        height: 52px;
+        width: 120px;
+        position: relative;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #footerLogoWords {
+        margin-left: 35px;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #e7e7e7;
+    }
+    #footerLogoCopyRightWords {
+        margin-left: 36px;
+        margin-top: -15px;
+        font-size: 12px;
+    }
+    #footerAvery {
+        font-size: 14px;
+        float: right;
+        margin-right: 30px;
+    }
+    #footerResources {
+        font-size: 14px;
+        float: right;
+        margin-right: 30px;
+    }
+    #footerBusiness {
+        font-size: 14px;
+        float: right;
+        margin-right: 15px;
+    }
+    .footerRightLinks {
+        line-height: 8px;
+    }
+
+    @media screen and (max-width:735px) {
+        ul.topHead li {
+            font-family: Roboto-Regular;
+            display: inline;
+            color: #ffffff;
+            font-size: 13px;
+            padding: 0px;
+            margin-left: 0px;
+            text-align: right;
+        }
+        #theMostRightBtn {
+            margin-right: 15px;
+        }
+        #logo {
+            background-image: url("../images/averyLogoLong.png");
+            background-size: 120px;
+            background-repeat: no-repeat;
+            display: block;
+            height: 50px;
+            width: 120px;
+            float: left;
+            margin: 0;
+            margin-left: 70px;
+            padding: 0;
+            position: relative;
+            margin-top: -27px;
+            margin-left: 0px;
+        }
+        
+        #menuBtn {
+            margin-left: 0;
+        }
+        
+        #features {
+            background: none;
+            border: none;
+            font-family: Roboto-Regular;
+            color: #ffffff;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+    }
+    
+    @media screen and (max-width:620px) {
+        ul.topHead li {
+            font-family: Roboto-Regular;
+            display: inline;
+            color: #ffffff;
+            font-size: 13px;
+            padding: 0px;
+            margin-left: 0px;
+            text-align: right;
+        }
+        #theMostRightBtn {
+            margin-right: 15px;
+        }
+        #logo {
+            background-image: url("../images/averyLogoLong.png");
+            background-size: 120px;
+            background-repeat: no-repeat;
+            display: block;
+            height: 50px;
+            width: 120px;
+            float: left;
+            margin: 0;
+            margin-left: 70px;
+            padding: 0;
+            position: relative;
+            margin-top: -27px;
+            margin-left: 0px;
+        }
+        
+        #menuBtn {
+            margin-left: 0;
+        }
+        
+        #features {
+            background: none;
+            border: none;
+            font-family: Roboto-Regular;
+            color: #ffffff;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+
+        #footerLogo {
+            background-image: url("../images/averyLogoLong.png");
+            background-size: 100px;
+            background-repeat: no-repeat;
+            height: 45px;
+            width: 100px;
+            position: relative;
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+        #footerLogoWords {
+            margin-left: 35px;
+            margin-top: 0px;
+            font-size: 11px;
+            color: #e7e7e7;
+        }
+        #footerLogoCopyRightWords {
+            margin-left: 36px;
+            margin-top: -15px;
+            font-size: 12px;
+        }
+        #footerAvery {
+            font-size: 12px;
+            float: right;
+            margin-right: 20px;
+        }
+        #footerResources {
+            font-size: 12px;
+            float: right;
+            margin-right: 20px;
+        }
+        #footerBusiness {
+            font-size: 12px;
+            float: right;
+            margin-right: 10px;
+        }
+        .footerRightLinks {
+            line-height: 8px;
+        }
+    }
+
+    @media screen and (max-width:565px) {
+        ul.topHead li {
+            font-family: Roboto-Regular;
+            display: inline;
+            color: #ffffff;
+            font-size: 11px;
+            padding: 0px;
+            margin-left: -5px;
+            text-align: right;
+        }
+        #theMostRightBtn {
+            margin-right: 15px;
+        }
+        #logo {
+            background-image: url("../images/averyLogoLong.png");
+            background-size: 100px;
+            background-repeat: no-repeat;
+            display: block;
+            height: 50px;
+            width: 100px;
+            float: left;
+            margin: 0;
+            margin-left: 70px;
+            padding: 0;
+            position: relative;
+            margin-top: -20px;
+            margin-left: 0px;
+        }
+        
+        #menuBtn {
+            margin-left: 0;
+        }
+        
+        #features {
+            background: none;
+            border: none;
+            font-family: Roboto-Regular;
+            color: #ffffff;
+            font-size: 11px;
+            margin-left: 15px;
+        }
+    }
+
+    @media screen and (max-width:565px) {
+        ul.topHead li {
+            font-family: Roboto-Regular;
+            display: inline;
+            color: #ffffff;
+            font-size: 11px;
+            padding: 0px;
+            margin-left: -5px;
+            text-align: right;
+        }
+        #theMostRightBtn {
+            margin-right: 15px;
+        }
+        #logo {
+            background-image: url("../images/averyLogoLong.png");
+            background-size: 100px;
+            background-repeat: no-repeat;
+            display: block;
+            height: 50px;
+            width: 100px;
+            float: left;
+            margin: 0;
+            margin-left: 70px;
+            padding: 0;
+            position: relative;
+            margin-top: -20px;
+            margin-left: 0px;
+        }
+        
+        #menuBtn {
+            margin-left: 0;
+        }
+        
+        #features {
+            background: none;
+            border: none;
+            font-family: Roboto-Regular;
+            color: #ffffff;
+            font-size: 11px;
+            margin-left: 10px;
+        }
+        footer {
+            background-color: #eb8500;
+            position: absolute; 
+            width: 100%;
+            height: 200px;
+            vertical-align: baseline;
+        }
+        #footerLogo {
+            background-image: url("../images/averyLogoLong.png");
+            background-size: 100px;
+            background-repeat: no-repeat;
+            height: 45px;
+            width: 100px;
+            position: relative;
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+        #footerLogoWords {
+            margin-left: 35px;
+            margin-top: 0px;
+            font-size: 8px;
+            color: #e7e7e7;
+        }
+        #footerLogoCopyRightWords {
+            margin-left: 36px;
+            margin-top: -11px;
+            font-size: 8px;
+        }
+        #footerAvery {
+            font-size: 12px;
+            float: right;
+            margin-right: 0px;
+        }
+        #footerResources {
+            font-size: 12px;
+            float: right;
+            margin-right: 10px;
+        }
+        #footerBusiness {
+            font-size: 12px;
+            float: right;
+            margin-right: 10px;
+        }
+        .footerRightLinks {
+            line-height: 8px;
+        }
+    }
