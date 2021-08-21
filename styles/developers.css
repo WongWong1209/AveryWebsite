@@ -25,3 +25,16 @@
 h1 {
     font-size: 30px;
 }
+
+@media screen and (max-width:435px) {
+    .avatar {
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width:375px) {
+    .avatar {
+        height: 149px;
+        width: 149px;
+    }
+}

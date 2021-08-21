@@ -104,4 +104,15 @@
     #ping {
         width: 100%;
     }
+    #uptime {
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px) {
+    #ping {
+        width: 100%;
+    }
+    #uptime {
+        width: 100%;
+    }
 }

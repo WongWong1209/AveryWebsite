@@ -603,4 +603,130 @@ ul#menuBody li {
             line-height: 11px;
         }
     }
+
+    @media screen and (max-width:500px) {
+        #rightPNG {
+            background-size: 500px;
+            height: 300px;
+            width: 450px;
+            margin-left: -80px;
+        }
+
+        #FeaturesPage {
+            color: #ffffff;
+            line-height: 30px;
+        }
+        .featuresPic {
+            height: 300px;
+            width: 450px;
+        }
+        .featuresPic:not(#firstPic) {
+            margin-left: -60px;
+        }
+        #Features {
+            margin-left: 5%;
+            margin-top: 500px;
+        }
+        #Features h1 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        #Features h2 {
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width:430px) {
+        #rightPNG {
+            background-size: 400px;
+            height: 200px;
+            width: 350px;
+            margin-left: -60px;
+        }
+        
+        #menuSection {
+            height: 100%;
+        }
+        
+        li#bigWord {
+            line-height: 20px;
+        }
+        
+        li#bigWord h1 {
+            font-weight: bold;
+            font-size: 40px;
+            color: #ffffff;
+        }
+        
+        ul#leftBtn li button {
+            border-style: hidden;
+            border-radius: 3px;
+            font-family: Roboto-Light;
+            font-size: 12px;
+            width: 100px;
+            height: 25px;
+            margin-left: -7px;
+        }
+        ul#leftBtn li button#supportServer {
+            margin-left: 30px;
+        }
+    
+        ul#leftBtn li {
+            display: inline;
+        }
+        
+        ul#menuBody {
+            margin-left: 10%;
+            margin-top: 10px;
+        }
+
+        ul#menuBody li {
+            display: block;
+        }
+        
+        #moderation {
+            font-size: 11px;
+            margin-top: -10px;
+            color: #ffffff;
+            font-family: Roboto-Regular;
+        }
+        
+        #moderation ul li {
+            display: inline;
+        }
+        #moderation ul {
+            line-height: 11px;
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        #FeaturesPage {
+            color: #ffffff;
+            line-height: 30px;
+        }
+        .featuresPic {
+            height: 266.6666px;
+            width: 400px;
+        }
+        .featuresPic:not(#firstPic) {
+            margin-left: -60px;
+        }
+        #Features {
+            margin-left: 5%;
+            margin-top: 500px;
+        }
+        #Features h1 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        #Features h2 {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width:375px) {
+        #FeaturesPage {
+            color: #ffffff;
+            line-height: 29.9999999px;
+        }
+    }
 }
