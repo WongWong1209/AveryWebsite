@@ -3,7 +3,7 @@
     background-size: 900px;
     background-repeat: no-repeat;
     display: block;
-    height: 610px;
+    height: 480px;
     width: 850px;
     float: right;
     margin: 0;
@@ -12,8 +12,10 @@
     position: relative;
 }
 
+
 #menuSection {
     height: 100%;
+    padding-bottom: 0;
 }
 
 li#bigWord {
@@ -79,6 +81,30 @@ ul#menuBody li {
 .check {
     color: #ff7b00;
 }
+
+#FeaturesPage {
+    color: #ffffff;
+    line-height: 30px;
+}
+.featuresPic {
+    height: 500px;
+    width: 800px;
+}
+.featuresPic:not(#firstPic) {
+    margin-left: -100px;
+}
+#Features {
+    margin-left: 10%;
+    margin-top: 500px;
+}
+#Features h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+#Features h2 {
+    font-size: 25px;
+}
+/** { border: 1px solid black; }*/
 
 @media screen and (max-width:1400px) {
     #rightPNG {
@@ -429,6 +455,81 @@ ul#menuBody li {
         }
         #moderation ul {
             line-height: 11px;
+        }
+    }
+
+    @media screen and (max-width:770px) {
+        #FeaturesPage {
+            color: #ffffff;
+            line-height: 30px;
+        }
+        .featuresPic {
+            height: 473.5px;
+            width: 700px;
+        }
+        .featuresPic:not(#firstPic) {
+            margin-left: -100px;
+        }
+        #Features {
+            margin-left: 10%;
+            margin-top: 500px;
+        }
+        #Features h1 {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        #Features h2 {
+            font-size: 25px;
+        }
+    }
+
+    @media screen and (max-width:660px) {
+        #FeaturesPage {
+            color: #ffffff;
+            line-height: 30px;
+        }
+        .featuresPic {
+            height: 356.25px;
+            width: 570px;
+        }
+        .featuresPic:not(#firstPic) {
+            margin-left: -100px;
+        }
+        #Features {
+            margin-left: 10%;
+            margin-top: 500px;
+        }
+        #Features h1 {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        #Features h2 {
+            font-size: 25px;
+        }
+    }
+
+    @media screen and (max-width:525px) {
+        #FeaturesPage {
+            color: #ffffff;
+            line-height: 30px;
+        }
+        .featuresPic {
+            height: 356.25px;
+            width: 550px;
+        }
+        .featuresPic:not(#firstPic) {
+            margin-left: -60px;
+        }
+        #Features {
+            margin-left: 5%;
+            margin-top: 500px;
+        }
+        #Features h1 {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        #Features h2 {
+            font-size: 25px;
         }
     }
 
