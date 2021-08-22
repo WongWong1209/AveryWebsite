@@ -16,31 +16,6 @@
                 <li id="theMostRightBtn"><a href="https://www.patreon.com/bePatron?u=57095080" target="_blank">Premium</a></li>
             </ul>
         </header>
-        <script>
-            const featuresBtn = document.querySelector("#features");
-            var featuresCss = document.getElementById("features");
-            
-            featuresBtn.addEventListener("mousedown", function () {
-                featuresCss.style.color = "#ffd86c";
-            });
-            featuresBtn.addEventListener("mouseup", function () {
-                featuresCss.style.color = "#ffffff";
-            });
-            featuresBtn.addEventListener("mouseenter", function () {
-                featuresCss.style.color = "#fff06c";
-            });
-            featuresBtn.addEventListener("mouseleave", function () {
-                featuresCss.style.color = "#ffffff";
-            });
-
-            featuresBtn.addEventListener("click", function () {
-                window.scrollTo({
-                    top: 1150,
-                    left: 0,
-                    behavior: "smooth"
-                });
-            });
-        </script>
         <section id="menuSection">
             <br><br><br><br>
             <div>
@@ -98,7 +73,7 @@
         </section>
         <section id="FeaturesPage">
             <div id="Features">
-                <h1>Malicious/Phishing Website Detection</h1>
+                <h1 id="featuresTitle">Malicious/Phishing Website Detection</h1>
                 <h2>We prevent any kind of scam links to protect our users from being hacked!</h2>
                 <img src="images/phising_website_detection.png" class="featuresPic" id="firstPic">
                 <h1>Member Activities Logging System</h1>
@@ -148,4 +123,28 @@
                 </li>
             </ul>
         </footer>
+        <script>
+            const featuresBtn = document.querySelector("#features");
+            var featuresCss = document.getElementById("features");
+            var featuresPage = document.getElementById("featuresTitle");
+
+            console.log(featuresPage);
+            
+            featuresBtn.addEventListener("mousedown", function () {
+                featuresCss.style.color = "#ffd86c";
+            });
+            featuresBtn.addEventListener("mouseup", function () {
+                featuresCss.style.color = "#ffffff";
+            });
+            featuresBtn.addEventListener("mouseenter", function () {
+                featuresCss.style.color = "#fff06c";
+            });
+            featuresBtn.addEventListener("mouseleave", function () {
+                featuresCss.style.color = "#ffffff";
+            });
+
+            featuresBtn.addEventListener("click", function () {
+                featuresPage.scrollIntoView({behavior:"smooth", block: "start"});
+            });
+        </script>
 </body>
